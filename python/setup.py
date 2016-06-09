@@ -12,7 +12,7 @@ import platform
 from setuptools import setup
 from setuptools import Extension
 
-cython_present = False
+cython_present = True
 
 building_dist = False
 for arg in sys.argv:
